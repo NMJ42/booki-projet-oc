@@ -167,6 +167,23 @@ form button .fa-magnifying-glass {
     background-color: var(--filter-bg-color);
 }
 
+.informations {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.informations i {
+    color: white;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    background-color: #0065FC;
+}
+
+.informations p {
+    font-size: 14px    ;
+}
 
 
 /****** Hebergements And Populaires ***********/
