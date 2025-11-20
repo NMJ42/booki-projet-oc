@@ -216,6 +216,7 @@ form button .fa-magnifying-glass {
 .hebergements .card {
     width: 250px;
     box-sizing:  border-box;
+    
 }
 
 .hebergements .card-title {
@@ -223,12 +224,25 @@ form button .fa-magnifying-glass {
     margin-bottom: 4px;
 }
 
-.hebergements-card .card-subtitle {
+.hebergements-cards .card-subtitle {
     margin: 0;
+    font-size: 14px;
 }
 
-.hebergements-card .card-rating {
+.hebergements-cards .card-rating {
     margin-bottom: 5px;
+}
+
+.hebergements-cards {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.plus {
+    font-size: 18px;
+    font-weight: bold;
 }
 /****** Populaires ***********/
 .populaires {
