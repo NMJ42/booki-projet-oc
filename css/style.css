@@ -333,6 +333,34 @@ form button .fa-magnifying-glass {
     justify-content: space-between;
 }
 
+/********* Footer *************/
+
+footer {
+    display: flex;
+    align-items: flex-start;
+    background-color: var(--main-bg-color);
+    gap: 50px;
+    margin-top: 60px;
+    padding: 10px;
+
+
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 2px;
+}
+
 
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
