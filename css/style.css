@@ -289,6 +289,49 @@ form button .fa-magnifying-glass {
     margin-bottom: 5px;
 }
 
+/************** Activités *************/
+
+.activites {
+    width: 100%;
+}
+
+.activites .card {
+    width: 100%;
+    box-sizing: border-box;
+    height: 439px;
+    padding: 0;
+}
+
+.activites .card img {
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.activites .activites-title {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.activites .card-title {
+    padding: 20px;
+    margin: 0;
+    font-size: 16px;
+
+}
+
+.activites-cards a {
+    gap: 25px;
+    width:  23%;
+    display: block;
+}
+
+.activites-cards {
+    display: flex;
+    justify-content: space-between;
+}
 
 
 
