@@ -178,6 +178,10 @@ form button .fa-magnifying-glass {
     margin-bottom: 20px;
 }
 
+.informations i {
+    padding-bottom: 6px;
+}
+
 
 .informations p {
     font-size: 14px    ;
@@ -397,6 +401,19 @@ footer ul {
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+
+    .activites .card img {
+        height: 200px;
+    }
+
+    .activites .card {
+        max-height: 270px;
+    }
+    .activites .card-title {
+        display: flex;
+        align-items: center;
+        height: 100%;
+    
 }
 
 /* Small devices (phones, less than 768px) */
@@ -467,8 +484,8 @@ footer ul {
         padding: 0;
         border-radius: 15px;
         box-shadow: 0px 4px 4px 0px #00000040;
-        margin-left: -10px;
-
+        margin-left: 0px;
+        border-top-left-radius: 15px;
     }
 
     form input {
@@ -549,6 +566,10 @@ footer ul {
 
     .hebergements-and-populaires p {
         padding-left: 0;
+    }
+
+    .card-title {
+        font-size: 16px;
     }
 
     .populaires .card {
