@@ -413,12 +413,12 @@ footer ul {
         display: flex;
         align-items: center;
         height: 100%;
-    
+    }
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    
+@media (max-width: 767.98px) { 
+
     * {
         max-width: 100%;  
     }
@@ -626,6 +626,6 @@ footer ul {
         flex-direction: column;
         gap: 10px;
         padding-left: 20px;
+
     }
 }
-
